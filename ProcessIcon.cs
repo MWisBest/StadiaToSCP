@@ -33,9 +33,9 @@ namespace StadiaToSCP
 		{
 			// Put the icon in the system tray and allow it react to mouse clicks.			
 			ni.MouseClick += new MouseEventHandler(ni_MouseClick);
-			var icon = Resources.micontroller;
+			var icon = Resources.stadia_icon;
 			ni.Icon = icon;
-			ni.Text = "Mi controller interface application";
+			ni.Text = "Stadia XInput Adapter";
 			ni.Visible = true;
 
 			// Attach a context menu.
